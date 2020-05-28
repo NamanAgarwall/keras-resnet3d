@@ -11,6 +11,7 @@ from __future__ import (
 )
 import six
 from math import ceil
+from tensorflow import keras
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import (
     Input,
