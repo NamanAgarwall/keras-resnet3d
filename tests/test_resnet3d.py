@@ -1,6 +1,6 @@
 """Test resnet3d."""
 import pytest
-from keras import backend as K
+from tensorflow.keras import backend as K
 from resnet3d import Resnet3DBuilder
 
 
