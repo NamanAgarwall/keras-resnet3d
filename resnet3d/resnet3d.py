@@ -18,13 +18,13 @@ from tensorflow.keras.layers import (
     Dense,
     Flatten
 )
-from tensorflow.keras.layers.convolutional import (
+from tensorflow.keras.layers import (
     Conv3D,
     AveragePooling3D,
     MaxPooling3D
 )
-from tensorflow.keras.layers.merge import add
-from tensorflow.keras.layers.normalization import BatchNormalization
+from tensorflow.keras.layers import add
+from tensorflow.keras.layers import BatchNormalization
 from tensorflow.keras.regularizers import l2
 from tensorflow.keras import backend as K
 
